@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Azeret Mono", monospace;
+}
+
+         /* Nav style */
+
+.nav-container{
+    max-width: 1140px;
+    margin: 5px auto;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-title a{
+    color: rgb(13, 19, 33);
+    text-decoration: none;
+    font-size: 28px;
+    font-weight: 800;
+
+}
+.nav-button input{
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    padding: 15px 24px 15px 24px;
+    border: 1px solid rgb(13, 19, 33);
+    border-radius: 8px;
+    opacity: 0.8;
+}
+        /* Nav banner style */
+.banner-container{
+    width: 1349px;
+    height: 510px;
+    background-image: url(../assets/Hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.banner-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-img-container{
+    width: 180px;
+    height: 180px;
+    
+}
+.banner-img{
+    width: 100%;
+    height: 100%;
+}
+.banner-text-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.banner-content{
+    width: 998px;
+    height: 425px;
+    margin: 0 auto;
+}
+.banner-title{
+    color: rgb(13, 19, 33);
+    font-size: 30px;
+    font-weight: 800;
+    width: 95%;
+}
+.banner-desc{
+    color: rgb(13, 19, 33);
+    width: 80%;
+}
+.banner-button{
+    background: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    margin: 0px 10px;
+    padding: 21px 24px 21px 24px;
+    border-radius: 8px;
+
+}
+.banner-button-container{
+    text-align: center;
+}
+        /* why wev dev section style */
+#why-web-deb-section{
+    width: 946px;
+    height: 1233px;
+    background-color: #FAFAFB;
+    margin: 20px auto;
+}
+.web-deb-text-container{
+    width: 852px;
+    height: 150px;
+    margin: 0 auto;
+    text-align: center;
+}
+.web-deb-text-title{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    margin: 10px 0px;
+}
+.web-deb-text-desc{
+    color: rgb(13, 19, 33);
+}
+#do-coding{
+    width: 852px;
+    height: 336px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.do-coding-left-box{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.do-coding-title{
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 22px;
+    font-weight: 700;
+    max-width: 70%;
+}
+.do-coding-desc{
+    color: rgb(13, 19, 33);
+    opacity: 0.7;
+    max-width: 85%;
+}
+.learn-more-btn{
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+font-weight: 600;
+    padding: 12px 20px 12px 20px;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+}
+.do-coding-right-img-container{
+    max-width: 300px;
+    max-height: 250px;
+   
+}
+.do-coding-right-img{
+    width: 100%;
+    height: 100%;
+}
+#help-people{
+    width: 852px;
+    height: 336px;
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.do-coding-right-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    
+}
+        /* my-inspiration-section style */
+#my-inspiration-section{
+    width: 946px;
+    height: 580px;
+    margin: 20px auto;
+}
+.my-inspiration-text-container{
+    width: 852px;
+    height: 113px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+.my-inspiration-title{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    padding: 5px;
+}
+.my-inspiration-desc{
+    color: rgb(13, 19, 33);
+    opacity: 0.7;
+    padding: 5px;
+}
+.my-inspiration-video-container{
+   max-width: 100%;
+   max-height: 80%;
+   margin: 0 auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.inspiration-video{
+    border-radius: 15px;
+}
