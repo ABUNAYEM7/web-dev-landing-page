@@ -33,10 +33,11 @@ body{
     border: 1px solid rgb(13, 19, 33);
     border-radius: 8px;
     opacity: 0.8;
+    cursor: pointer;
 }
         /* Nav banner style */
 .banner-container{
-    width: 1349px;
+    max-width:1349px;
     height: 510px;
     background-image: url(../assets/Hero-bg.png);
     background-repeat: no-repeat;
@@ -91,7 +92,7 @@ body{
     margin: 0px 10px;
     padding: 21px 24px 21px 24px;
     border-radius: 8px;
-
+    cursor: pointer;
 }
 .banner-button-container{
     text-align: center;
@@ -147,10 +148,11 @@ body{
 .learn-more-btn{
     color: rgb(13, 19, 33);
     font-size: 20px;
-font-weight: 600;
+    font-weight: 600;
     padding: 12px 20px 12px 20px;
     border: 1px solid rgb(13, 19, 33);
     opacity: 0.7;
+    cursor: pointer;
 }
 .do-coding-right-img-container{
     max-width: 300px;
@@ -363,7 +365,7 @@ font-weight: 600;
     color: rgb(13, 19, 33);
     font-size: 20px;
     font-weight: 600;
-
+    cursor: pointer;
 }
 .form-container{
     display: flex;
@@ -379,7 +381,7 @@ font-weight: 600;
     justify-content: center;
     align-items: center;
 }
-.footer-container{
+#footer-container{
     width: 930px;
     height: 50px;
     margin: 0 auto;
