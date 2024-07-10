@@ -211,3 +211,102 @@ font-weight: 600;
 .inspiration-video{
     border-radius: 15px;
 }
+        /* my-current-target-section */
+
+#my-current-target-section{
+    width: 946px;
+    height: 580px;
+    margin: 20px auto;
+}
+
+.my-current-text-container{
+    width: 852px;
+    height: 113px;
+    margin: 20px auto;
+    text-align: center;
+}
+.my-current-title{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    padding: 5px;
+}
+.my-current-desc{
+    color: rgb(13, 19, 33);
+    opacity: 0.7;
+    padding: 5px;
+}
+.Target-card-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 40px 10px;
+}
+
+.my-current-card{
+    width: 30%;
+    height: 370px;
+    padding: 10px 20px;
+    background-color: #FFF6F4;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-shadow: 5px 5px 5px 10px rgba(190, 180, 180, 0.712);
+}
+.card-text-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+}
+.card-title{
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+}
+.card-desc{
+    color: rgb(13, 19, 33);
+    opacity: 0.7;
+
+}
+.card-learn-link{
+    color: rgb(13, 19, 33);
+    font-size: 18px;
+    font-weight: 700;
+}
+.card-2{
+    background-color:#f2fef6;
+}
+.card-3{
+    background-color:#fffdf2;
+}
+    /* my-next-target-section style */
+
+#my-next-target-section{
+    width: 946px;
+    height: 580px;
+    margin: 20px auto;   
+}
+.my-next-text-container{
+    width: 852px;
+    height: 113px;
+    margin: 10px auto;
+    text-align: center;
+}
+.next-target-card-container{
+    width: 100%;
+    height: 77%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    margin: 0 auto;
+}
+.my-next-card{
+    width: 852px;
+    height: 130px;
+    padding: 10px 20px;
+    display: flex;
+    gap: 20px;
+    box-shadow: 5px 5px 5px 10px rgba(190, 180, 180, 0.712);
+}
